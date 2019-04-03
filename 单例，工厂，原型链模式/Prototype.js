@@ -14,6 +14,7 @@ window.onload = function () {
     f1.getName();
     f2.getName();
 
+    console.log(Fn.prototype);
     console.log(Fn.prototype.constructor);//返回属性值当前的类
     console.log(f1.__proto__);//返回所属类的原型方法
     console.log(f2.__proto__);
@@ -41,5 +42,18 @@ window.onload = function () {
     console.log(sortarr.sort(function (a,b) {
         return a-b;
     }));
+
+    //原型继承
+   function Fn1() {
+       this.x = 100;
+   }
+   Fn1.prototype.getX = function () {
+       console.log(this.x)
+   }
+   var Son = new Fn1;
+   console.log(Son);
+   console.log(Fn1.prototype.constructor);
+   console.log(Son.__proto__);
+
 
 }
