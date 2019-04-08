@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+}
+#container #content {
+  width: 100%;
+}
+#container #content #imgBox {
+  height: 100px;
+  width: 100px;
+  background: #aeb5c6 url("loading_small.gif") no-repeat;
+  background-size: cover;
+  float: left;
+}
+#container #content #newsBox {
+  height: 100px;
+  margin-left: 110px;
+  padding-left: 10px;
+}
+#container #content #newsBox #title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+#container #content #newsBox p {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-top: 10px;
+  font-size: 18px;
+}
+/*# sourceMappingURL=index.css.map */

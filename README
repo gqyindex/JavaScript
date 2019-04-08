@@ -27,3 +27,13 @@
       A();
     }
     B(A);
+
+4.position:
+      relative:最外层的元素是所有内层元素的参照物
+               =====>offsetTop,offsetLeft,当前参照物对于父级参照物的偏移
+
+5.获取当前位移属性
+      scrollTop：简单地说就是滚动后被隐藏的高度
+      offsetTop：获取对象相对于由offsetParent属性指定的父坐标(css定位的元素或body元素)距离顶端的高度
+      clientHeight：内容可视区域的高度，也就是说页面浏览器中可以看到内容的这个区域的高度，一般是最后一个工具条以下到状态栏以上的这个区域，与页面内容无关
+      scrollHeight：是网页内容实际高度

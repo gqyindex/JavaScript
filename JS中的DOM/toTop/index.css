@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+#box {
+  width: 100%;
+  height: 950px;
+  overflow: auto;
+}
+#box img {
+  width: 100%;
+}
+#box::-webkit-scrollbar {
+  display: none;
+}
+#back {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+  background-color: #aeb5c6;
+  position: fixed;
+  top: 80%;
+  left: 90%;
+}
+/*# sourceMappingURL=index.css.map */
