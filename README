@@ -37,3 +37,30 @@
       offsetTop：获取对象相对于由offsetParent属性指定的父坐标(css定位的元素或body元素)距离顶端的高度
       clientHeight：内容可视区域的高度，也就是说页面浏览器中可以看到内容的这个区域的高度，一般是最后一个工具条以下到状态栏以上的这个区域，与页面内容无关
       scrollHeight：是网页内容实际高度
+      !!!!offsetWidth是只读属性，不能修改
+      !!实现元素移动用style.left(但是必须在内联样式中，定义left的值)
+
+6.DOM ====>文档对象模型，提供js操作元素的属性和节点方法
+      （1）获取元素：document.get....系列
+                    document.body
+                    document.documentElement
+                    context.querySelector
+                    context.get.....系列
+      （2）节点方法：childNode
+                    children
+                    parentNode
+                    previousSibling
+                    nextSibling
+                    lastChild
+                    lastElementchild
+       (3)操作元素增删改:createElement
+                        document.createDocumentFragment
+                        appendChild
+                        removeChild
+                        insertBefore
+                        cloneNode
+                        replace
+                        getAttribute.....系列
+       （4）盒子模型：四大系列，见第5点
+
+

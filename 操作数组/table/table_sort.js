@@ -16,8 +16,11 @@ window.onload = function () {
    };
 
    function showData(res) {
-      var data =  eval('(' + res + ')');
+
+       var data =  eval('(' + res + ')');
+
       //渲染表格
+
       for (var i=0;i<data.length;i++){
            var trObj = document.createElement('tr');
            for (var key in data[i]){

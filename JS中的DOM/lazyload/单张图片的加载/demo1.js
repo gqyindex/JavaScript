@@ -10,7 +10,7 @@ window.onload = function () {
 
        //异常情况下，比如图片不存在的情况下
        var tempImg = new Image;
-       tempImg.src = imgObj.getAttribute('truesrc');;
+       tempImg.src = imgObj.getAttribute('truesrc');
        tempImg.onload = function () {
            imgObj.src = tempImg.src;
            imgObj.style.display = 'block';
