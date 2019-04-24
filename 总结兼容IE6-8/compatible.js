@@ -12,9 +12,9 @@ window.onload = function () {
         }
     };
 
-    arr.myForEach(function (item,index,input) {
+   /* arr.myForEach(function (item,index,input) {
         console.log(item);
-    });
+    });*/
 
     //兼容map
     Array.prototype.myMap = function(callback,contexts) {

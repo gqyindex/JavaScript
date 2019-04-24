@@ -63,4 +63,7 @@
                         getAttribute.....系列
        （4）盒子模型：四大系列，见第5点
 
-
+7.关于jsonp跨域中遇到的坑：
+        jsonp:callback  //默认就是callback
+        jsonpCallback:'.......' //这个必须名称和后端约定的一致，要不然只能没有success回调数据
+                                //在不清楚后端的名称情况下，可以先不写，以免踩坑！！！
